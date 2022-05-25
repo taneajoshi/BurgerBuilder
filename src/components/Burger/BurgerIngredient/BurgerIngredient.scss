@@ -1,0 +1,104 @@
+.bread-bottom,
+.bread-top {
+    box-shadow: inset -15px 0 #c15711;
+    width: 80%;
+}
+
+.bread-bottom {
+    height: 13%;
+    background: linear-gradient(#F08E4A, #e27b36);
+    border-radius: 0 0 30px 30px;
+}
+
+.bread-top {
+    position: relative;
+    height: 20%;
+    background: linear-gradient(#bc581e, #e27b36);
+    border-radius: 50% 50% 0 0;
+}
+
+.salad,
+.bread-top,
+.bread-bottom,
+.bacon {
+    margin: 2% auto;
+}
+
+.seeds.one {
+    position: absolute;
+    width: 10%;
+    height: 15%;
+    background-color: #eeeeee;
+    left: 30%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(-20deg);
+    box-shadow: inset -2px -3px #c9c9c9;
+}
+
+.seeds.one:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #eeeeee;
+    left: 180%;
+    top: -50%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+    box-shadow: inset -1px -3px #c9c9c9;
+}
+
+.seeds.two {
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    background-color: #ffffff;
+    left: 64%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(10deg);
+    box-shadow: inset -3px 0 #c9c9c9;
+}
+
+.seeds.two:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #ffffff;
+    left: 150%;
+    top: -130%;
+    border-radius: 40%;
+    transform: rotate(90deg);
+    box-shadow: inset 1px 3px #c9c9c9;
+}
+
+.meat {
+    width: 80%;
+    height: 8%;
+    background: linear-gradient(#7f3608, #702e05);
+    margin: 2% auto;
+    border-radius: 15px;
+}
+
+.cheese {
+    width: 90%;
+    height: 4.5%;
+    margin: 2% auto;
+    background: linear-gradient(#f4d004, #d6bb22);
+    border-radius: 20px;
+}
+
+.bacon {
+    width: 80%;
+    height: 3%;
+    background: linear-gradient(#bf3813, #c45e38);
+}
+
+.salad {
+    width: 85%;
+    height: 7%;
+    background: linear-gradient(#228c1d, #91ce50);
+    border-radius: 20px;
+}
