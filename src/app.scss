@@ -17,3 +17,12 @@
     background: rgba(0,0,0,0.75);
     z-index: 9;
 }
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.pointer-none {
+    pointer-events: none;
+}
